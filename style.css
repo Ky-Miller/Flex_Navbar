@@ -1,0 +1,45 @@
+.nav {
+    width: 1000px;
+    height: 50px;
+    padding: 10px;
+    background-color: rgb(68, 68, 68);
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    display: flex;
+    justify-self: start;
+    align-self: center;
+    font-family: cursive;
+    color: white;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.active {
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.btn {
+    border-style: solid;
+    box-shadow: 5px 5px black;
+    background-color: aqua;
+    font-family: cursive;
+    color: white;
+    display: flex;
+}
